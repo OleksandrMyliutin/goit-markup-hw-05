@@ -431,6 +431,39 @@ nav a:focus{
 
                     /* end of portfolio-section */
 
+/* modal window style */
+    .form{
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-items: flex-start;
+    }
+
+    .form a{
+        text-decoration: line;
+        color: #4D5AE5;
+        
+    }
+
+    .form-title{
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+    }
+
+    .form-label{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+/* end of modal window style */
+
+
                     /* footer-section */
 .footer-page {
     padding: 100px 0;

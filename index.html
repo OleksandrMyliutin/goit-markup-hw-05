@@ -610,21 +610,32 @@
     </main>
     <div class="modal-overlay">
       <div class="modal">
+        <button class="btn-modal-close">
+          <svg
+            width="8"
+            height="8"
+            class="icon icon-close-black-18dp"
+          >
+            <use
+              href="./images/icons.svg#icon-close-black-18dp"
+            ></use>
+          </svg>
+        </button>
+        <p class="form-title">
+          Leave your contacts and we will call you back
+        </p>
         <form class="form" autocomplete="on">
-          <legend class="form-title">
-            Leave your contacts and we will call you back
-          </legend>
           <label class="form-label">
             Name
-            <input type="text" />
+            <input class="form-input" type="text" />
           </label>
           <label class="form-label">
             Phone
-            <input type="tel" />
+            <input class="form-input" type="tel" />
           </label>
           <label class="form-label">
             Email
-            <input type="email" />
+            <input class="form-input" type="email" />
           </label>
           <label class="form-label">
             Comment
@@ -634,11 +645,22 @@
               placeholder="Text input"
             ></textarea>
           </label>
-          <input type="checkbox" name="prv" id="prv-police" />
-          <label for="prv-police"
-            >I accept the terms and conditions of the
-            <a href="">Privacy Policy</a></label
-          >
+          <div class="wrapper-checkbox">
+            <input type="checkbox" name="prv" id="prv-police" />
+            <label
+              class="form-label checkbox-label"
+              for="prv-police"
+              >I accept the terms and conditions of the<a
+                class="form-span"
+                href=""
+              >
+                Privacy Policy</a
+              >
+            </label>
+          </div>
+          <button class="hero-button style-button" type="submit">
+            Send
+          </button>
         </form>
       </div>
     </div>

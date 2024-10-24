@@ -663,6 +663,12 @@ nav a:focus{
 }
 
 .span-privacy{
+    color:#4d5ae5;
+    line-height: 1.33333;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #4d5ae5;
+    margin-left: 3px;
 
 }
 
@@ -672,8 +678,8 @@ nav a:focus{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+    text-align: center;
     margin-bottom: 16px;
 }
 
@@ -689,12 +695,10 @@ nav a:focus{
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus-within {
+.form-input:checked .form-span{
     border-color: #4d5ae5;
-}
-
-.form-input:focus+.modal-icon {
-    fill: #4d5ae5;
+    border: none;
+    fill:#F4F4FD;
 }
 
 .input-wrapper {

@@ -705,7 +705,7 @@ nav a:focus{
 }
 
 .modal-checkbox-style:checked + .form-label .form-span{
-    background-color: #4d5ae5;
+    background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
 }
@@ -823,5 +823,6 @@ nav a:focus{
 .textarea-style:focus-within {
     border-color: #4d5ae5;
 }
+
 
 /* end of modal window style */

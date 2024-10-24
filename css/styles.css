@@ -824,17 +824,4 @@ nav a:focus{
     border-color: #4d5ae5;
 }
 
-.modal-checkbox-style:checked {
-    background-color: #404bbf;
-    ;
-    border-color: #404bbf;
-    ;
-    opacity: 1;
-}
-
-.modal-checkbox-style:checked+.checkbox-active {
-    opacity: 1;
-}
-
-
 /* end of modal window style */

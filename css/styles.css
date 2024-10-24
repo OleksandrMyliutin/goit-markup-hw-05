@@ -651,6 +651,7 @@ nav a:focus{
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
+    margin-right: 8px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -703,7 +704,7 @@ nav a:focus{
     fill: #4d5ae5;
 }
 
-.modal-checkbox-style:checked .form-span{
+.modal-checkbox-style:checked + .form-label .form-span{
     border-color: #4d5ae5;
     border: none;
     fill:#F4F4FD;
@@ -740,10 +741,7 @@ nav a:focus{
     color: #8e8f99;
 }
 
-.checkbox-label {
-    flex-direction: row;
-    column-gap: 5px;
-}
+
 
 .icon-close-black-18dp {
     fill: #2e2f42;

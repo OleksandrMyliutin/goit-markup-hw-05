@@ -544,6 +544,11 @@ nav a:focus{
     color: #fff;
 }
 
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
 .footer-form-btn{
     border-radius: 4px;
     padding: 8px 24px;

@@ -645,6 +645,7 @@ nav a:focus{
 }
 
 
+
 .form-span {
     line-height: 1.33;
     text-decoration: underline;
@@ -758,9 +759,7 @@ nav a:focus{
 }
 
 .wrapper-checkbox {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+    margin-bottom: 24px;
 }
 
 

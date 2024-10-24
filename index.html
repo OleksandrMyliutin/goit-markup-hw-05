@@ -723,20 +723,24 @@
         </p>
         <form class="form" autocomplete="on">
           <div class="form-wrapper">
-            <label class="form-label" for="person"> Name </label>
+            <label class="form-label" for="user-name">
+              Name
+            </label>
             <div class="input-wrapper">
               <input
                 class="form-input"
                 type="text"
-                name="person"
-                id="person"
+                name="user-name"
+                id="user-name"
               />
-              <svg width="18" height="18" class="modal-icon">
+              <svg width="18" height="24" class="modal-icon">
                 <use
                   href="./images/icons.svg#icon-person-black"
                 ></use>
               </svg>
             </div>
+          </div>
+          <div class="form-wrapper">
             <label class="form-label" for="phone"> Phone </label>
             <div class="input-wrapper">
               <input
@@ -751,6 +755,8 @@
                 ></use>
               </svg>
             </div>
+          </div>
+          <div class="form-wrapper">
             <label class="form-label" for="email-icon">
               Email
             </label>
@@ -767,6 +773,8 @@
                 ></use>
               </svg>
             </div>
+          </div>
+          <div class="form-wrapper">
             <label class="form-label" for="textarea-coment">
               Comment
             </label>
@@ -796,6 +804,8 @@
                   />
                 </svg>
               </div>
+            </div>
+            <div class="form-wrapper">
               <label
                 class="form-label checkbox-label"
                 for="prv-police"
@@ -806,13 +816,13 @@
                   Privacy Policy</a
                 >
               </label>
+              <button
+                class="hero-button style-button"
+                type="submit"
+              >
+                Send
+              </button>
             </div>
-            <button
-              class="hero-button style-button"
-              type="submit"
-            >
-              Send
-            </button>
           </div>
         </form>
       </div>

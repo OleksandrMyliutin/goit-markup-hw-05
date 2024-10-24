@@ -703,7 +703,7 @@ nav a:focus{
     fill: #4d5ae5;
 }
 
-.form-input:checked .form-span{
+.modal-checkbox-style:checked .form-span{
     border-color: #4d5ae5;
     border: none;
     fill:#F4F4FD;
@@ -838,18 +838,11 @@ nav a:focus{
     opacity: 1;
 }
 
-.wrapper-checkbox-inter {
-    position: relative;
-}
+
 
 .checkbox-active {
-    position: absolute;
-    left: 3px;
-    top: 4px;
     fill: white;
     cursor: pointer;
-    opacity: 0;
-    transition: opacity 0.2s ease;
 }
 
 /* end of modal window style */

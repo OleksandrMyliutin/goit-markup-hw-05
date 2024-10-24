@@ -701,6 +701,10 @@ nav a:focus{
     fill:#F4F4FD;
 }
 
+.form-input:focus+.modal-icon {
+    fill: #4d5ae5;
+}
+
 .input-wrapper {
     position: relative;
     width: 100%;

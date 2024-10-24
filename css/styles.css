@@ -639,6 +639,11 @@ nav a:focus{
     width: 100%;
 }
 
+.form-wrapper-checkbox{
+    width: 100%;
+    margin-bottom: 16px;
+}
+
 .form-span {
     line-height: 1.33;
     text-decoration: underline;
@@ -780,8 +785,11 @@ nav a:focus{
     outline: none;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-style::placeholder{

@@ -639,10 +639,11 @@ nav a:focus{
     width: 100%;
 }
 
-.form-wrapper-checkbox{
+.form-wrapper-textarea{
     width: 100%;
     margin-bottom: 16px;
 }
+
 
 .form-span {
     line-height: 1.33;

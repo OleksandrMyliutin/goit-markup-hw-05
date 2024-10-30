@@ -569,7 +569,6 @@ nav a:focus{
     text-align: center;
     position: relative;
     border: none;
-    margin-left: 18px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
@@ -613,7 +612,6 @@ nav a:focus{
 }
 
 .modal {
-    width: 408px;
     min-height: 584px;
     background-color: #fcfcfc;
     border-radius: 4px;
@@ -626,13 +624,6 @@ nav a:focus{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form {
-    max-width: 360px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: flex-start;
-}
 
 .form-wrapper{
     margin-bottom: 8px;
@@ -728,6 +719,10 @@ nav a:focus{
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form > .hero-button{
+    margin-top: 24px;
 }
 
 .form-label {
